@@ -13,3 +13,6 @@ st.sidebar.title('IBA 활동내역')
 option = st.sidebar.selectbox(
     'Menu',
      ('재욱', '재현', '설지'))
+if tab2 == '재현':
+    age = 19
+    st.write(f"나이: {age}세")
